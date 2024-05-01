@@ -73,6 +73,9 @@ const Login = () => {
               {loading ? <HashLoader size={25} color="#fff" /> : "Login"}
             </button>
           </div>
+          <p className="mt-3 text-center text-textColor">
+            <Link to="/forgot-password" className="text-primaryColor font-medium">Forgot Password?</Link>
+          </p>
           <p className="mt-5 text-textColor text-center">
             Don&apos;t have an account?
             <Link to="/register" className="text-primaryColor font-medium ml-1">
