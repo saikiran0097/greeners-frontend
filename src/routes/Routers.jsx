@@ -1,6 +1,7 @@
 import Home from "../pages/Home";
 import Services from "../pages/Services";
 import Login from "../pages/Login";
+import ForgotPassword from "../pages/ForgotPassword";
 import Signup from "../pages/Signup";
 import Contact from "../pages/Contact";
 import Greeners from "../pages/Greeners/Greeners";
@@ -19,6 +20,7 @@ const Routers = () => {
       <Route path="/greeners" element={<Greeners />} />
       <Route path="/greeners/:id" element={<GreenerDetails />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/forgot-password" element={<ForgotPassword />} />
       <Route path="/register" element={<Signup />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/services" element={<Services />} />
